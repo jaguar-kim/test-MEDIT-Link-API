@@ -1,0 +1,18 @@
+{
+  "name": "test-medit",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "check-token": "node check-token.js",
+    "password-grant": "node password-grant.js",
+    "get-user-information": "node get-user-information.js",
+    "get-user-by-email": "node get-user-by-email.js",
+    "get-group": "node get-group.js",
+    "get-cases": "node get-cases.js"
+  },
+  "author": "jaguar",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
